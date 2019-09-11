@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+  background:url("../../img/body.png");
+  background-size: cover;
+  color:#ffffff;
+}
+
+.header-menu {
+	background:url("../../img/header.png");
+  background-size: cover;
+  width : 100%;
+  position: fixed;
+  text-align: right;
+}
+
+.header-name{
+  float: left;
+  font-size: 50px;
+  margin-top: -2%;
+  margin-left: 4%;
+  font-family: 'Pacifico', cursive;
+}
+
+.header-contain{
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.header-contain a{
+  width : 100%;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 12px;
+  text-align: right;
+}
+
+a:hover{
+	text-shadow: 0 0 10px #ffffff;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+  margin-left: 20px;
+}
+
+h2 a {
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 40px;
+	float: right;
+	font-size: 14px;
+}
+
+img{
+	position: relative;
+  display: block;
+  width: 220px;
+  height: 220px;
+  z-index: -1;
+  margin-bottom : 10px;
+  margin-top :130px;
+}
+
+.music-image{
+  background:url("../../img/music.png");
+  width: 290px;
+  height: 220px;
+  margin-top: 130px;
+}
+
+.literary-image{
+  margin-top: 130px;
+  background:url("../../img/literary.png");
+  width: 290px;
+  height: 220px;
+}
+
+.drama-image{
+  margin-top: 130px;
+  background:url("../../img/drama.png");
+  width: 290px;
+  height: 220px;
+}
+
+/*Styling end to end unit*/
+.herounit {
+  height: 690px;
+	padding :14px 16px;
+	margin : 0;
+	text-align: center;
+	background:url("../../img/herounit.jpg.jpg");
+  background-size: contain;
+}
+
+/*Styling footer*/
+.footer-social {
+	background:url("../../img/footer.png");
+  background-size: cover;
+	padding: 8px; 
+	background-color: #414f5c;
+	text-align: center;
+	font-size: 18px;
+	color:#ffffff;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+footer a {
+	color : #ffffff;
+}
+
+article {
+	margin :0 0 5px 0;
+	}
+
+.grid_6 {
+	margin :0 5px 0 0;
+}
+
+.name li{
+  margin-bottom: 15px;
+}
